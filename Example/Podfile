@@ -1,0 +1,16 @@
+# 公有仓库
+source 'https://github.com/CocoaPods/Specs.git'
+## 私有仓库
+source 'https://github.com/Corotata/CoroPods.git'
+
+use_frameworks!
+
+target 'RxExtensions_Example' do
+  pod 'RxExtensions', :path => '../'
+
+  target 'RxExtensions_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

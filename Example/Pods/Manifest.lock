@@ -1,0 +1,30 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxExtensions (0.1.0):
+    - RxCocoa (~> 4.1.2)
+    - RxSwift (~> 4.1.2)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - RxExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  RxExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxExtensions: 824535cc4f88f49fbca702c238e9d95347959662
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: ece3b8bc2635ea716f56c10eeaab2d78d4e7cf30
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,30 @@
+{
+  "name": "RxExtensions",
+  "version": "0.1.0",
+  "summary": "RxExtensions.",
+  "description": "A short description of RxExtensions.\nTODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Corotata/RxExtensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Corotata": "corotata@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Corotata/RxExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RxExtensions/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.1.2"
+    ],
+    "RxCocoa": [
+      "~> 4.1.2"
+    ]
+  }
+}
